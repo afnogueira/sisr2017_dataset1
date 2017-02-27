@@ -1,0 +1,83 @@
+<html>
+<head>
+<title>HTML Frames Example - Content</title>
+<style type="text/css">
+body {
+	font-family:verdana,arial,sans-serif;
+	margin:30px;
+	background-color:#ffffff;
+	}
+</style>
+<script src="js/sorttable.js"></script>
+</head>
+<body>
+
+<h1>JnI-InChi </h1>
+
+<h4><a target="_blank" href="http://jni-inchi.sourceforge.net/">Project Summary</a> |  <a href="csv/jni_inchi_csv.csv" >Download data (csv format)</a>| <a target="content" href="content.html"> List of Metrics (home page)</a></h4>
+
+<p><span style="font-weight:bold">Project description: </span>enables Java software to generate IUPAC's International Chemical Identifiers (InChIs) by making Java Native Interface (JNI) calls to the InChI C library developed by IUPAC.</p>
+
+<h4>>>Metrics presented in the paper: An Approach for Characterizing Software Maintainability through Test Data Analysis</h4>
+
+<table class="sortable" border="1">
+
+<tr>		<th>	Release	</th><th title="The average value for the static maintainability metric (values used were calculated by VizzMaintenace). O is the best value for the static maintainability metric, 1 is the worst value for the static maintainability metric">	Maint. (VM)	</th><th title="Maintainability variation which can be observed between two releases">	%Vmaint.	</th><th title="Percentage of API differences between two releases">	Jdiff %	</th><th title="Total number of lines of code for the release">	LOC	</th><th title="Variation in the total number of lines of code that can be observed between two releases">	%VLOC	</th><th title="time between releases in days">	TBR	</th><th title="total number of java files in the release" >	#JF	</th><th title="Variation in the total number of java files that can be observed between two releases">	%VJF	</th><th title="Percentage of concrete classes that can be tested in each release" >	%ConcrC	</th><th title="Variation in the total number of concrete classes that can be observed between two releases">	%VConcrC	</th><th title="Percentage of line coverage">	%PLC	</th><th title="Variation in the line coverage between two releases">	%VPLC	</th><th title="Percentage of branch coverage">	%PBC	</th><th title="Variation in the branch coverage between two releases">	%VPBC	</th><th title="Average value for the cyclomatic complexity">	ACCx	</th><th title="Variation in the average value of cyclomatic complexity between releases">	VACCx	</th></tr>
+<tr><td>	0.5	</td><td>	0.14540	</td><td>	--	</td><td>	--	</td><td>	2564	</td><td>	--	</td><td>	--	</td><td>	23	</td><td>	--	</td><td>	95.65%	</td><td>	--	</td><td>	67.45%	</td><td>	--	</td><td>	40.83%	</td><td>	--	</td><td>	1.6840909091	</td><td>	--	</th></tr>
+<tr>		<td>	0.5.1	</td><td>	0.14540	</td><td>	0.00%	</td><td>	0.00%	</td><td>	2564	</td><td>	0.00%	</td><td>	363	</td><td>	23	</td><td>	0.00%	</td><td>	95.65%	</td><td>	0.00%	</td><td>	66.56%	</td><td>	-1.31%	</td><td>	40.83%	</td><td>	0.00%	</td><td>	1.6840909091	</td><td>	0.00%	</td></tr>
+<tr>		<td>	0.6	</td><td>	0.18802	</td><td>	29.32%	</td><td>	+22.00%	</td><td>	1832	</td><td>	-28.55%	</td><td>	70	</td><td>	23	</td><td>	0.00%	</td><td>	95.65%	</td><td>	0.00%	</td><td>	70.04%	</td><td>	+5.23%	</td><td>	41.41%	</td><td>	+1.40%	</td><td>	2.0378787879	</td><td>	+21.01%	</td></tr>
+<tr>		<td>	0.6-std	</td><td>	0.17540	</td><td>	-6.71%	</td><td>	0.00%	</td><td>	1782	</td><td>	-2.73%	</td><td>	0	</td><td>	23	</td><td>	0.00%	</td><td>	95.65%	</td><td>	0.00%	</td><td>	70.11%	</td><td>	+0.09%	</td><td>	42.06%	</td><td>	+1.59%	</td><td>	2.0361742424	</td><td>	-0.08%	</td></tr>
+<tr>		<td>	0.7	</td><td>	0.19729	</td><td>	12.48%	</td><td>	+17.00%	</td><td>	1831	</td><td>	+2.75%	</td><td>	263	</td><td>	24	</td><td>	+4.35%	</td><td>	100.00%	</td><td>	+4.55%	</td><td>	68.27%	</td><td>	-2.62%	</td><td>	44.44%	</td><td>	+5.66%	</td><td>	2.8258989621	</td><td>	+38.78%	</td></tr>
+<tr>		<td>	0.8	</td><td>	0.19795	</td><td>	0.33%	</td><td>	0.00%	</td><td>	1824	</td><td>	-0.38%	</td><td>	267	</td><td>	24	</td><td>	0.00%	</td><td>	100.00%	</td><td>	0.00%	</td><td>	71.09%	</td><td>	+4.14%	</td><td>	50.69%	</td><td>	+14.06%	</td><td>	2.8258989621	</td><td>	0.00%	</td></tr>
+
+
+
+</table>
+<h4>>>Remaining metrics</h4>
+
+<p>Test Cases' characteristics</p>
+<table border="1" class="sortable">
+<tr>		<th>	Release	</th><th title="Average of Method Invocations per Test Case">	AMITC	</th><th title="Variation in the average value of Method Invocations per Test Case between two  releases">	%VAMITC	</th><th title="Average of Instances Created per Test Case">	AICTC	</th><th title="Variation in the average value of instances Created per Test Case between two releases">	%VAICTC	</th><th title="Average of Assert and Fail instructions per Test Case">	AAFTC	</th><th title="Variation in the average value of Assert and Fail instructions per Test Case between two releases">	%VAAFTC	</th><th title="Average of  Disctinct Assert methods per Class">	ADAC	</th><th title="Variation in the average value of   Disctinct Assert methods per Class between two releases">	%VADAC	</th> <th title="Average of Disctinct Exceptions per Class">ADEC</th><th title="Variation in the average value of Disctinct Exceptions per Class between two releases">%VADEC</th></tr>
+
+<tr>		<td>	0.5	</td><td>	14.2287034576	</td><td>	--	</td><td>	3.0517669971	</td><td>	--	</td><td>	12.851406071	</td><td>	--	</td><td>	2.7142857143	</td><td>	--	</td><td>	0.9047619048	</td><td>	--	</th></tr>
+<tr>		<td>	0.5.1	</td><td>	14.1194504139	</td><td>	-0.77%	</td><td>	3.1592548679	</td><td>	+3.52%	</td><td>	12.7982969282	</td><td>	-0.41%	</td><td>	2.7142857143	</td><td>	0.00%	</td><td>	0.9047619048	</td><td>	0.00%	</td></tr>
+<tr>		<td>	0.6	</td><td>	17.911556718	</td><td>	+26.86%	</td><td>	2.7758056291	</td><td>	-12.14%	</td><td>	16.5825935491	</td><td>	+29.57%	</td><td>	3	</td><td>	+10.53%	</td><td>	1.5909090909	</td><td>	+75.84%	</td></tr>
+<tr>		<td>	0.6-std	</td><td>	18.0158624848	</td><td>	+0.58%	</td><td>	2.712043209	</td><td>	-2.30%	</td><td>	16.6923594324	</td><td>	+0.66%	</td><td>	3	</td><td>	0.00%	</td><td>	1.5454545455	</td><td>	-2.86%	</td></tr>
+<tr>		<td>	0.7	</td><td>	19.331950148	</td><td>	+7.31%	</td><td>	2.9016696487	</td><td>	+6.99%	</td><td>	17.8597155292	</td><td>	+6.99%	</td><td>	3.125	</td><td>	+4.17%	</td><td>	1.6666666667	</td><td>	+7.84%	</td></tr>
+<tr>		<td>	0.8	</td><td>	19.0126379319	</td><td>	-1.65%	</td><td>	2.7909376079	</td><td>	-3.82%	</td><td>	17.6280053117	</td><td>	-1.30%	</td><td>	3.125	</td><td>	0.00%	</td><td>	1.6666666667	</td><td>	0.00%	</td></tr>
+
+
+</table>
+
+<p> Test Cases - LOC</p>
+
+
+<table border="1" class="sortable">
+<tr>		<th>	Release	</th><th title="Total of test LOC">	#TLOC	</th><th title="Variation in the total of test LOC between two releases">	%VTLOC	</th><th title="Average of test LOC per class tested">	ALOCC	</th><th title="Variation in the average of test LOC per class tested between two releases">	%VALOCC	</th><th title="Average of test LOC per Test Case">	ALOCTC	</th><th title="Variation in the Average of test LOC per Test Case between two releases">	%VALOCTC	</th></tr><tr>		<td>	0.5	</td><td>	10595802	</td><td>	--	</td><td>	504562.00	</td><td>	--	</td><td>	23.67	</td><td>	--	</th></tr>
+<tr>		<td>	0.5.1	</td><td>	10651063	</td><td>	+0.52%	</td><td>	507193.48	</td><td>	+0.52%	</td><td>	23.21	</td><td>	-1.91%	</td></tr>
+<tr>		<td>	0.6	</td><td>	14644857	</td><td>	+37.50%	</td><td>	665675.32	</td><td>	+31.25%	</td><td>	26.77	</td><td>	+15.31%	</td></tr>
+<tr>		<td>	0.6-std	</td><td>	14547945	</td><td>	-0.66%	</td><td>	661270.23	</td><td>	-0.66%	</td><td>	26.66	</td><td>	-0.39%	</td></tr>
+<tr>		<td>	0.7	</td><td>	14014744	</td><td>	-3.67%	</td><td>	583947.67	</td><td>	-11.69%	</td><td>	28.69	</td><td>	+7.60%	</td></tr>
+<tr>		<td>	0.8	</td><td>	13292248	</td><td>	-5.16%	</td><td>	553843.67	</td><td>	-5.16%	</td><td>	27.32	</td><td>	-4.76%	</td></tr>
+
+</table>
+
+
+<p>Test Cases Generation </p>
+
+<table border="1" class="sortable">
+<table border="1" class="sortable">
+<tr>		<th>	Release	</th><th title="Test Cases Created">	#TTC	</th><th title="Variation in the total number of Test Cases Created between two releases">	%VTTC	</th><th title="Total number of Test Cases Removed because they are redudant">	#TTCR	</th><th title="Variation in the total number of Test cases Removed between two releases">	%VTTCR	</th><th title="Average of Test Cases per Class">	ATCC 	</th><th title="Variation in Average of Test Cases per Class between two releases">	%VATCC	</th></tr>
+
+<tr>		<td>	0.5	</td><td>	447737	</td><td>	--	</td><td>	558678	</td><td>	--	</td><td>	21320.81	</td><td>	--	</th></tr>
+<tr>		<td>	0.5.1	</td><td>	458818	</td><td>	+2.47%	</td><td>	574638	</td><td>	+2.86%	</td><td>	21848.48	</td><td>	+2.47%	</td></tr>
+<tr>		<td>	0.6	</td><td>	547119	</td><td>	+19.25%	</td><td>	585816	</td><td>	+1.95%	</td><td>	24869.05	</td><td>	+13.83%	</td></tr>
+<tr>		<td>	0.6-std	</td><td>	545627	</td><td>	-0.27%	</td><td>	584522	</td><td>	-0.22%	</td><td>	24801.23	</td><td>	-0.27%	</td></tr>
+<tr>		<td>	0.7	</td><td>	488486	</td><td>	-10.47%	</td><td>	541861	</td><td>	-7.30%	</td><td>	20353.58	</td><td>	-17.93%	</td></tr>
+<tr>		<td>	0.8	</td><td>	486472	</td><td>	-0.41%	</td><td>	547221	</td><td>	+0.99%	</td><td>	20269.67	</td><td>	-0.41%	</td></tr>
+
+
+</table>
+
+</body>
+</html>

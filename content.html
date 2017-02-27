@@ -1,0 +1,69 @@
+<html>
+<head>
+<title>HTML Frames Example - Content</title>
+<style type="text/css">
+body {
+	font-family:verdana,arial,sans-serif;
+	font-size:10pt;
+	margin:30px;
+}
+</style>
+</head>
+<body>
+<h1>Metrics</h1>
+
+<p>The following tables list the set of metrics included in the datasets.</p>
+
+<table border="1" >
+<tr><th>Metric</th><th>Description</th></tr>
+<tr><td>Maint(VM)</td><td>the average value for the static maintainability metric (values used were calculated by VizzMaintenace)</td></tr
+<tr><td>%Vmaint</td><td>maintainability variation which can be observed between two releases</td></tr>
+<tr><td>%JDiff </td><td>percentage of API differences between two releases</td></tr>
+<tr><td>LOC</td><td>total number of lines of code for the release</td></tr>
+<tr><td>%VLOC</td><td>variation in the total number of lines of code that can be observed between two releases</td></tr>
+<tr><td>TBR</td><td>time between releases in days</td></tr>
+<tr><td>#JF</td><td>total number of java files in the release</td></tr>
+<tr><td>%VJF</td><td>variation in the total number of java files that can be observed between two releases</td></tr>
+<tr><td>%ConcrC</td><td>percentage of concrete classes that can be tested in each release</td></tr>
+<tr><td>%VConcrC</td><td>variation in the total number of concrete classes that can be observed between two releases</td></tr>
+<tr><td>%PLC </td><td> percentage of line coverage</td></tr>
+<tr><td>%VPLC</td><td>variation in the line coverage between two releases</td></tr>
+<tr><td>%PBC</td><td>percentage of branch coverage</td></tr>
+<tr><td>%VPBC</td><td>variation in the branch coverage between two releases</td></tr>
+<tr><td>ACCx</td><td>average value for the cyclomatic complexity</td></tr>
+<tr><td>%VACCx</td><td>variation in the average value of cyclomatic complexity between releases</td></tr>
+<tr><td colspan="2" style="background-color:gray"></td></tr>
+<tr><td>AMITC</td><td>Average of Method Invocations per Test Case</td></tr>
+<tr><td>%VAMITC</td><td>Variation in the average value of Method Invocations per Test Case between two releases</td></tr>
+<tr><td>AICTC</td><td>Average of Instances Created per Test Case</td></tr>
+<tr><td>%VAICTC</td><td>Variation in the average value of instances Created per Test Case between two releases</td></tr>
+<tr><td>AAFTC</td><td>Average of Assert and Fail instructions per Test Case </td></tr>
+<tr><td>%VAAFTC</td><td>Variation in the average value of   Assert and Fail instructions per Test Case between two releases</td></tr>
+<tr><td>ADAC</td><td>Average of  Disctinct Assert methods per Class</td></tr>
+<tr><td>%VADAC</td><td>Variation in the average value of   Disctinct Assert methods per Class between two releases</td></tr>
+<tr><td>ADEC</td><td>Average of Disctinct Exceptions per Class</td></tr>
+<tr><td>%VADEC</td><td>Variation in the average value of Disctinct Exceptions per Class between two releases</td></tr>
+<tr><td colspan="2" style="background-color:gray"></td></tr>
+<tr><td>#TLOC</td><td>Total of test LOC</td></tr>
+<tr><td>%VTLOC</td><td>Variation in the total of test LOC between two releases</td></tr>
+<tr><td>ALOCC</td><td>Average of test LOC per class tested</td></tr>
+<tr><td>%VALOCC	</td><td>Variation in the average of test LOC per class tested between two releases</td></tr>
+<tr><td>ALOCTC</td><td>Average of test LOC per Test Case</td></tr>
+<tr><td>%VALOCTC</td><td>Variation in the Average of test LOC per Test Case between two releases</td></tr>
+<tr><td colspan="2" style="background-color:gray"></td></tr>
+<tr><td>#TTC</td><td>Total number of Test Cases created</td></tr>
+<tr><td>%VTTC</td><td>Variation in the total number of Test Cases Created between two releases</td></tr>
+<tr><td>#TTCR</td><td>Total number of Test Cases Removed because they are redudant</td></tr>
+<tr><td>%VTTCR</td><td>Variation in the total number of Test cases Removed between two releases</td></tr>
+<tr><td>ATCC</td><td>Average of Test Cases per Class</td></tr>
+<tr><td>%VATCC</td><td>Variation in Average of Test Cases per Class between two releases</td></tr>
+
+<table>
+<p>Metrics collected through <a target="_blank" href="http://www.arisa.se/vizz_analyzer.php"> VizzMaintenance</a>: Maint. (VM), LOC <br/>
+Metrics collected through <a  target="_blank" href ="http://javadiff.sourceforge.net/"> JDiff </a>: %JDiff<br/>
+Metrics collected through <a  target="_blank" href ="http://cobertura.sourceforge.net/"> Cobertura </a>: %PLC, %PBC, ACCx<br/>
+</p>
+
+
+</body>
+</html>
